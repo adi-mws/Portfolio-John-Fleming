@@ -21,36 +21,26 @@ function shineOnce(delay) {
     // Configration 
     const animationWaitTime = 2; // in secs
     const icons = document.getElementById("socialMediaRedirections").children;
-    const downloadResumeBtn = document.getElementById("downloadResumeBtn");
 
     
 
     const glow_elements = (elem) => {
-        if (elem.tagName == "BUTTON") {
-            elem.style.boxShadow = "0 2px 15px 0px black";
-        }
-        else {
-            elem.style.textShadow = "0px 0px 21px #5A639C";
-        }
+        elem.style.textShadow = "0px 0px 21px #5A639C";
+    
     }
 
     const normalise_elements = (elem) => {
-        if (elem.tagName == 'BUTTON')
-            elem.style.boxShadow = "";
-        else {
             elem.style.textShadow = "";
-        }
+        
     }
 
     const glowTime = setTimeout(() => {
         // Animation Logic
         Array.from(icons).map(glow_elements);
-        glow_elements(downloadResumeBtn);
     }, delay * 1000);
 
     const unglowtime = setTimeout(() => {
         Array.from(icons).map(normalise_elements);
-        normalise_elements(downloadResumeBtn);
     }, (delay + animationWaitTime) * 1000);
 }
 
@@ -60,7 +50,7 @@ function shineOnce(delay) {
 // Onload Animation of the object
 addEventListener('load', () => {
     // Makes elements shine after (given) seconds after onloading of the landing section
-    shineOnce(1.3);
+    shineOnce(1.5);
     const texts = document.getElementById("textWrapper");
     const connections = document.getElementById("connectionsWrapper");
     // element hide
@@ -116,7 +106,6 @@ function LandingSection() {
 
                     </div>
                 </div>
-                {/* Button For Downloading resume */}
             </div>
 
         </>

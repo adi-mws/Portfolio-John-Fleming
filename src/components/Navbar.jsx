@@ -7,15 +7,9 @@ function Navbar() {
 
   
 
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // Dark mode is enabled
-        var dark = true;
-    } else {
-        // Light mode is enabled (or prefers-color-scheme is not supported)
-        var dark = false
-    }
+    
 
-    let [darkmode, setDarkmode] = useState(dark); 
+    let [darkmode, setDarkmode] = useState(false); 
 
    
     useEffect(()=> {
