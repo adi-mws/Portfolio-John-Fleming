@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Jane Collins",
+        "occupation": "Marketing Manager",
+        "review": "Working with John Fleming was an absolute pleasure. He transformed our outdated site into a sleek, modern platform that has significantly boosted our online presence. His attention to detail and dedication to the project were outstanding. Highly recommend for any business looking to upgrade their website!",
+        "image": "src/assets/reviewers/JaneCollins.jpg"
+    },
+    {
+        "name": "Sophia Anderson",
+        "occupation": "Customer Service Manager",
+        "review": "John provided outstanding web development services for our new customer portal. His ability to understand our requirements and deliver a user-friendly, visually appealing portal was impressive. The portal has received great feedback from our customers. We will definitely collaborate with him again!",
+        "image": "src/assets/reviewers/women-4.jpg"
+    },
+    {
+        "name": "Michael Brown",
+        "occupation": "Product Manager",
+        "review": "The new e-commerce site is a game-changer for our business. John handled everything from the initial design to the final deployment with great professionalism. The site is fast, user-friendly, and visually appealing. I couldn't be happier with the results.",
+        "image": "src/assets/reviewers/men-2.jpg"
+    },
+    {
+        "name": "Emily White",
+        "occupation": "Operations Manager",
+        "review": "John was instrumental in revamping our company website. His expertise in both front-end and back-end development ensured that our site not only looks great but also performs exceptionally well. His communication throughout the project was excellent. A+ service!",
+        "image": "src/assets/reviewers/women-2.jpg"
+    }
+   
+   
+]

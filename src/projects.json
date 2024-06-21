@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Task Manager App",
+        "imageUrl": "/src/assets/taskManagementApp.jpg",
+        "description": "A task management application built with React and Node.js, featuring real-time collaboration and an intuitive UI."
+    },
+    {
+        "title": "E-commerce Platform",
+        "imageUrl": "/src/assets/ecommerceApp.png",
+        "description": "Developed a scalable e-commerce platform using Django and React, integrating secure payment gateways and a user-friendly interface."
+    },
+    {
+        "title": "Social Media Dashboard",
+        "imageUrl": "/src/assets/socialMediaDashboard.webp",
+        "description": "Created a social media dashboard with Vue.js and Express, providing real-time analytics and post-scheduling capabilities."
+    },
+    {
+        "title": "Online Learning Portal",
+        "imageUrl": "/src/assets/onlinePortal.png",
+        "description": "Built an online learning portal with Python and Angular, featuring interactive courses, quizzes, and progress tracking."
+    },
+    {
+        "title": "Blogging Platform",
+        "imageUrl": "/src/assets/bloggingPlatform.jpeg",
+        "description": "Developed a blogging platform using Ruby on Rails and React, offering rich text editing and seamless content management."
+    },
+    {
+        "title": "Fitness Tracker",
+        "imageUrl": "/src/assets/fitnessTracker.png",
+        "description": "Implemented a fitness tracker app with Node.js and React Native, enabling users to log workouts and monitor progress."
+    },
+    {
+        "title": "Real Estate Listing",
+        "imageUrl": "/src/assets/realStateListing.jpg",
+        "description": "Created a real estate listing website with Laravel and Vue.js, featuring advanced search filters and property management tools."
+    },
+    {
+        "title": "Weather Forecast App",
+        "imageUrl": "/src/assets/weatherForecastApp.png",
+        "description": "Built a weather forecast application using React and Visual Crossing API, providing accurate weather updates and forecasts."
+    },
+    {
+        "title": "Event Management App",
+        "imageUrl": "/src/assets/eventManagementApp.jpg",
+        "description": "Developed an event management system with ASP.NET Core and Angular, featuring event scheduling, ticketing, and attendee tracking."
+    },
+    {
+        "title": "Portfolio Website",
+        "imageUrl": "/src/assets/portfolioWebsite.jpeg",
+        "description": "Designed and developed a personal portfolio website using Gatsby and GraphQL, showcasing projects and skills with a sleek design."
+    }
+]
