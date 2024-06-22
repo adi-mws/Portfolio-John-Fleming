@@ -1,0 +1,21 @@
+Private License
+
+Copyright (c) 2024 Aditya Raj
+
+All rights reserved.
+
+Permission is hereby granted, subject to the following conditions:
+
+1. **Usage**: This software is licensed for use only by specific individual (the "Licensee"). Licensee is permitted to use the software for internal purposes only.
+
+2. **Modification and Redistribution**: The Licensee is not permitted to modify, distribute, sublicense, or sell copies of the Software without prior written consent from Aditya Raj.
+
+3. **Confidentiality**: The Licensee agrees to keep the Software and any associated documentation confidential and not to disclose it to any third parties without prior written consent from Aditya Raj.
+
+4. **Warranty Disclaimer**: The Software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+
+5. **Termination**: This license is effective until terminated. The Licensee's rights under this license will terminate automatically without notice from Aditya Raj if the Licensee fails to comply with any term(s) of this license. Upon termination, the Licensee shall cease all use of the Software and destroy all copies, full or partial, of the Software.
+
+6. **Governing Law**: This license shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of laws principles.
+
+For any inquiries or requests, please contact Aditya Raj at aditya040mth@gmail.com
