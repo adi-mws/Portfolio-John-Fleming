@@ -6,9 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist', // Customize output directory name if needed
     base: '/Portfolio-John-Fleming/',
-    assetsDir: './assets'
   },
 })
 
