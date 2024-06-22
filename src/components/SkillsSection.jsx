@@ -1,5 +1,6 @@
 import SkillCard from "./SkillCard";
 import { animate } from "../../public/animations";
+import image from "../../public/assets/skill-illustration.png"
 
 function SkillsSection() {
 
@@ -70,7 +71,7 @@ function SkillsSection() {
 
                         <p id="skillDescription" style={animationStylePreset1}>
                             As a versatile developer, I excel in both frontend and backend development, creating dynamic and responsive web applications. My expertise includes React, Vue.js, Node.js, and Python with Django, ensuring seamless integration and robust functionality. I'm skilled in UI/UX design, using tools like Figma and Adobe XD to craft intuitive interfaces. With strong DevOps and cloud computing knowledge, I manage scalable infrastructure and efficient CI/CD pipelines. My problem-solving abilities and collaborative approach ensure high-quality results and effective teamwork.</p>
-                        <img style={animationStylePreset2} id="skillIllustration" src="../../public/assets/skill-illustration.png" alt="" />
+                        <img style={animationStylePreset2} id="skillIllustration" src={image} alt="" />
                     </div>
                 </div>
 

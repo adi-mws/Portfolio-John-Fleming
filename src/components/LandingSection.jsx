@@ -1,5 +1,6 @@
 import React from "react";
 import { animate } from "../../public/animations"
+import ownerimage from "../../public/assets/owner-image.png"
 
 // Animations 
 // Glow and shine once when loaded 
@@ -21,16 +22,16 @@ function shineOnce(delay) {
     const animationWaitTime = 2; // in secs
     const icons = document.getElementById("socialMediaRedirections").children;
 
-    
+
 
     const glow_elements = (elem) => {
         elem.style.textShadow = "0px 0px 21px #5A639C";
-    
+
     }
 
     const normalise_elements = (elem) => {
-            elem.style.textShadow = "";
-        
+        elem.style.textShadow = "";
+
     }
 
     const glowTime = setTimeout(() => {
@@ -54,9 +55,9 @@ addEventListener('load', () => {
     const connections = document.getElementById("connectionsWrapper");
     // element hide
     // texts.children[0].style.transform = "translate("
-    animate(texts.children[0],0, .5)
+    animate(texts.children[0], 0, .5)
     animate(texts.children[1], .3, .5)
-    animate(texts.children[2],.6, .5)
+    animate(texts.children[2], .6, .5)
     animate(texts.children[3], 1, .5)
 
     animate(connections.children[0], 1, .5)
@@ -75,21 +76,21 @@ function LandingSection() {
                         {/* Main Text Container (Hi, I am ...) */}
                         <div id="textContainer">
                             <div id="textWrapper">
-                                <p style={{opacity: '0%', transform: "translate(0, 30px)"}}>Hi, I am</p>
-                                <p style={{opacity: '0%', transform: "translate(0, 30px)"}}>John Fleming</p>
-                                <p style={{opacity: '0%', transform: "translate(0, 30px)"}}>FullStack Developer</p>
-                                <p style={{opacity: '0%', transform: "translate(0, 30px)"}}>Crafting modern web apps with sleek, intuitive UI. <br/>
+                                <p style={{ opacity: '0%', transform: "translate(0, 30px)" }}>Hi, I am</p>
+                                <p style={{ opacity: '0%', transform: "translate(0, 30px)" }}>John Fleming</p>
+                                <p style={{ opacity: '0%', transform: "translate(0, 30px)" }}>FullStack Developer</p>
+                                <p style={{ opacity: '0%', transform: "translate(0, 30px)" }}>Crafting modern web apps with sleek, intuitive UI. <br />
                                     Empowering your projects with advanced AI solutions.</p>
                             </div>
                         </div>
                         {/* Get in touch button */}
                         <div id="connectionsWrapper">
-                            <button id="getInTouchBtn" onClick={()=> {
-                            const targetElement = document.getElementById("contactSection")
-                            targetElement.scrollIntoView({ behavior: 'smooth' });
+                            <button id="getInTouchBtn" onClick={() => {
+                                const targetElement = document.getElementById("contactSection")
+                                targetElement.scrollIntoView({ behavior: 'smooth' });
 
-                            }} style={{opacity: '0%'}}>GET IN TOUCH</button>
-                            <div id="socialMediaRedirections" style={{opacity: '0%'}}>
+                            }} style={{ opacity: '0%' }}>GET IN TOUCH</button>
+                            <div id="socialMediaRedirections" style={{ opacity: '0%' }}>
                                 <a href=""><i className="fa-brands fa-instagram"></i></a>
                                 <a href=""><i className="fa-brands fa-twitter"></i></a>
                                 <a href=""><i className="fa-brands fa-linkedin"></i></a>
@@ -100,7 +101,7 @@ function LandingSection() {
                     {/* Owner Image */}
                     <div id="landingSectionRight">
                         <div id="ownerImageWrapper">
-                            <img id="ownerImage" src="../../public/assets/owner-image.png" alt="OwnerImage" />
+                            <img id="ownerImage" src={ownerimage} alt="OwnerImage" />
                         </div>
 
                     </div>
