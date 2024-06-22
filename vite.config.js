@@ -6,7 +6,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
+
     base: '/Portfolio-John-Fleming/',
+    assetsInlineLimit: 0,
+    rollupOptions: {
+      output: {
+        assetFileNames: '[name].[ext]' // Keep original file names
+      }
+    }
   },
 })
 

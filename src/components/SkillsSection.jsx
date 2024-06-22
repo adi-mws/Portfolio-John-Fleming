@@ -1,6 +1,6 @@
 import SkillCard from "./SkillCard";
 import { animate } from "../../public/animations";
-import image from "../../public/assets/skill-illustration.png"
+import image from "../../public/assets/skillIllustration.png"
 
 function SkillsSection() {
 
