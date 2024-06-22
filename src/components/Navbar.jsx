@@ -9,7 +9,7 @@ function Navbar() {
 
     
 
-    let [darkmode, setDarkmode] = useState(false); 
+    let [darkmode, setDarkmode] = useState(true); 
 
    
     useEffect(()=> {
