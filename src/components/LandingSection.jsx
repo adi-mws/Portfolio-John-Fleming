@@ -1,6 +1,6 @@
 import React from "react";
 import { animate } from "../../public/animations"
-import ownerimage from "../../public/assets/ownerImage.png"
+import ownerimage from "../../public/assets/im.png"
 
 // Animations 
 // Glow and shine once when loaded 
