@@ -6,14 +6,13 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-
     base: '/Portfolio-John-Fleming/',
-    assetsInlineLimit: 0,
+    cssCodeSplit: false, // Disable CSS code splitting (if necessary)
     rollupOptions: {
       output: {
-        assetFileNames: '[name].[ext]' // Keep original file names
-      }
-    }
+        assetFileNames: '[name].[ext]', // Keep original file names for assets
+      },
+    },
   },
 })
 
