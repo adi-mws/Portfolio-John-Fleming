@@ -100,7 +100,7 @@ function LandingSection() {
                     {/* Owner Image */}
                     <div id="landingSectionRight">
                         <div id="ownerImageWrapper">
-                            <img id="ownerImage" src="/public/assets/owner-image.png" alt="OwnerImage" />
+                            <img id="ownerImage" src="../../public/assets/owner-image.png" alt="OwnerImage" />
                         </div>
 
                     </div>
