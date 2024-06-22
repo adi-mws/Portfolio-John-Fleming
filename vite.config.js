@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Customize output directory name if needed
     base: '/Portfolio-John-Fleming/',
+    assetsDir: './assets'
   },
 })
 
