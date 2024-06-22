@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'build', // Customize output directory name if needed
+    base: '/Portfolio-John-Fleming/',
   },
 })
 
