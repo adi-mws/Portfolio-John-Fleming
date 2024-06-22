@@ -1,4 +1,4 @@
-import { countingAnimation, animate} from "../animations";
+import { countingAnimation, animate} from "../../public/animations";
 
 // Window.onload animation 
 // Starts all the animations 

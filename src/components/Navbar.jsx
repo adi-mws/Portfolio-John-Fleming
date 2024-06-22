@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import { animate } from '../animations';
+import { animate } from '../../public/animations';
 
 
 function Navbar() {

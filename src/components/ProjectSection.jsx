@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ImageCard from "./ImageCard";
-import images from '../projects.json'
-import { animate } from "../animations";
+import images from '/public/projects.json'
+import { animate } from "../../public/animations";
 
 // Intialization 
 

@@ -1,5 +1,5 @@
 import SkillCard from "./SkillCard";
-import { animate } from "../animations";
+import { animate } from "../../public/animations";
 
 function SkillsSection() {
 

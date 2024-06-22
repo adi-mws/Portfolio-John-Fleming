@@ -1,6 +1,6 @@
 import Reviews from "./Reviews"
-import reviews from '../reviews.json'
-import { animate } from "../animations";
+import reviews from '/public/reviews.json'
+import { animate } from "../../public/animations";
 function ReviewsSection() {
 
     let scrolled = false

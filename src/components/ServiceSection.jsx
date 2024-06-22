@@ -1,5 +1,5 @@
 import ServiceCard from "./ServiceCard";
-import { animate } from "../animations";
+import { animate } from "../../public/animations";
 
 function ServiceSection() {
     const services = [

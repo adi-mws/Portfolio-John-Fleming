@@ -1,8 +1,7 @@
 import React from "react";
-import { animate } from "../animations";
+import { animate } from "../../public/animations"
 
 // Animations 
-
 // Glow and shine once when loaded 
 
 
@@ -101,7 +100,7 @@ function LandingSection() {
                     {/* Owner Image */}
                     <div id="landingSectionRight">
                         <div id="ownerImageWrapper">
-                            <img id="ownerImage" src="/src/assets/owner-image.png" alt="OwnerImage" />
+                            <img id="ownerImage" src="/public/assets/owner-image.png" alt="OwnerImage" />
                         </div>
 
                     </div>
