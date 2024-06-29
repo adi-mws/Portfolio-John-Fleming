@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { animate } from "../../public/animations"
-import ownerimage from "../../public/assets/im.png"
+import ownerimage from "/assets/im.png"
 
 // Animations 
 // Glow and shine once when loaded 
-
 
 
 
@@ -47,25 +46,26 @@ function shineOnce(delay) {
 
 
 
-// Onload Animation of the object
-addEventListener('load', () => {
-    // Makes elements shine after (given) seconds after onloading of the landing section
-    shineOnce(1.5);
-    const texts = document.getElementById("textWrapper");
-    const connections = document.getElementById("connectionsWrapper");
-    // element hide
-    // texts.children[0].style.transform = "translate("
-    animate(texts.children[0], 0, .5)
-    animate(texts.children[1], .3, .5)
-    animate(texts.children[2], .6, .5)
-    animate(texts.children[3], 1, .5)
 
-    animate(connections.children[0], 1, .5)
-    animate(connections.children[1], 1.2, .5)
-
-})
 
 function LandingSection() {
+    // Onload Animation of the object
+    useEffect(() => {
+        // Makes elements shine after (given) seconds after onloading of the landing section
+        shineOnce(1.5);
+        const texts = document.getElementById("textWrapper");
+        const connections = document.getElementById("connectionsWrapper");
+        // element hide
+        // texts.children[0].style.transform = "translate("
+        animate(texts.children[0], 0, .5)
+        animate(texts.children[1], .3, .5)
+        animate(texts.children[2], .6, .5)
+        animate(texts.children[3], 1, .5)
+
+        animate(connections.children[0], 1, .5)
+        animate(connections.children[1], 1.2, .5)
+
+    }, [])  
     return (
         <>
             <div id="landingSection">
