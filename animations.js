@@ -50,7 +50,6 @@ export function countingAnimation(obj, duration, delay = null) {
         const intervalTime = duration * 1000 / n; // Ends all the animtaion on the same time creating variable time for every interval
         const interval = setInterval(() => {
             intervalCount++;
-            console.log("Running...")
             try {
                 state++;
 
