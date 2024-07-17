@@ -3,11 +3,6 @@ import { animate } from '../../public/animations';
 
 
 function Navbar() {
-
-
-
-
-
     let [darkmode, setDarkmode] = useState(true);
 
 

@@ -5,9 +5,6 @@ import ownerimage from "/assets/im.png"
 // Animations 
 // Glow and shine once when loaded 
 
-
-
-
 function shineOnce(delay) {
 
     /* This function glows icons and buttons of the landing section after the 
@@ -43,11 +40,6 @@ function shineOnce(delay) {
     }, (delay + animationWaitTime) * 1000);
 }
 
-
-
-
-
-
 function LandingSection() {
     // Onload Animation of the object
     useEffect(() => {
@@ -69,7 +61,6 @@ function LandingSection() {
     return (
         <>
             <div id="landingSection">
-                {/* <img id="upperEclipse" src="src/assets/upper-eclipse.png" alt="upper-eclipse" /> */}
                 <div className="container">
 
                     <div id="landingSectionLeft">
