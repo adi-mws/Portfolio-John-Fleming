@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     base: '/Portfolio-John-Fleming/',
-    cssCodeSplit: false, // Disable CSS code splitting (if necessary)
+    cssCodeSplit: false, // Disable CSS code splitting 
     rollupOptions: {
       output: {
         assetFileNames: '[name].[ext]', // Keep original file names for assets

@@ -120,6 +120,9 @@ button {
   height: 50px;
   background-color: var(--page-dark-background-color);
   z-index: 100;
+  position: fixed;
+  top: 0; 
+  left: 0;
 
 }
 
@@ -139,7 +142,8 @@ button {
   width: 100%;
   height: 100%;
   display: flex;
-
+  justify-content: center; 
+  align-items: center;
 }
 
 #lightmodeBtn {
@@ -160,8 +164,9 @@ button {
 }
 
 #navbar .container div:last-child {
-  display: grid;
-  grid-template: 100% / 90% 10%;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
 }
 
 
@@ -181,7 +186,7 @@ button {
 
 /* Navbar and button common styling */
 #navbar .container div:last-child>ul>li>a {
-  padding: 1em 1.1em;
+  padding: 1em;
   margin: 0px 15px;
   text-decoration: none;
   color: var(--text-dark-color);
@@ -193,11 +198,13 @@ button {
 
 }
 
-
+#lightmodeBtn {
+  margin-left: 10px;
+}
 
 #navbar .container div:last-child>div:last-child>button {
   color: var(--text-dark-color);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #navbar .container div:last-child>ul>li>a:hover {
@@ -347,8 +354,7 @@ button {
 #landingSection {
   width: 100%;
   height: 600px;
-
-  /* margin: 10px 0; */
+  margin-top: 50px;
 }
 
 

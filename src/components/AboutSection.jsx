@@ -1,20 +1,6 @@
 import { countingAnimation, animate} from "../../public/animations";
 
-// Window.onload animation 
-// Starts all the animations 
-addEventListener("load", () => {
-    // const regularClients = document.getElementById("regularClientsCount");
-    // const yearsOfExperienceCount = document.getElementById("yearsOfExperienceCount");
-
-
-    // countingAnimation([regularClients, yearsOfExperienceCount], 1); // Regular CLients Count animation
-});
-
-
-// Window.onscroll animation 
 // Starts all the animation which works inside onscroll
-
-
 let scroll500Boolean = true;
 addEventListener("scroll", (e) => {
     // console.log(document.documentElement.scrollTop)

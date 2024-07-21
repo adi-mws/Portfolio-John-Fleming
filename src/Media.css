@@ -97,45 +97,43 @@
     font-size: .7em;
   }
 
-  #upperEclipse {
-    top: -80px;
-    left: -50px;
-  }
-
-  #navbar {
-    z-index: 50;
-  }
+  /* #navbar {
+    z-index: 50 !important;
+  } */
 
   .hamburger {
     display: flex;
+    transform: scale(.9);
+  }
+  #navbar {
+    z-index: 500 !important;
   }
 
-  #navbar .container>div:last-child>ul{
-  
-    position: absolute; 
+  #navbar .container>div:last-child>ul {
+
+    position: absolute;
     top: 50px !important;
     right: 0px;
-    z-index: -1;
     height: 15em;
     /* transition:.3s; */
     width: 100%;
-    height: auto; 
+    height: auto;
     display: block;
     background-color: var(--page-dark-background-color);
 
   }
 
-  #navbar .container>div:last-child>ul > li {
+  #navbar .container>div:last-child>ul>li {
     width: 100%;
     height: auto;
     display: auto;
   }
 
-  #navbar .container>div:last-child>ul > li > a {
+  #navbar .container>div:last-child>ul>li>a {
     color: var(--text-dark-color) !important;
     width: 100%;
     display: block;
-    width: 100%; 
+    width: 100%;
     margin: 0;
     border-radius: 0;
     text-align: center;
@@ -143,7 +141,7 @@
     text-transform: uppercase;
   }
 
-  #navbar .container > div:last-child > ul > li > a:hover {
+  #navbar .container>div:last-child>ul>li>a:hover {
     background-color: var(--nav-menu-hover-dark-background);
 
   }
@@ -154,9 +152,10 @@
   #navbar .container>div:last-child>ul {
     justify-content: flex-end;
   }
+
   #navbar .container div:last-child {
-    display: flex; 
-    justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end !important;
     align-items: center;
   }
 
@@ -166,17 +165,17 @@
     grid-template: 50% 50% /100%;
   }
 
-  
+
   #skillsSection img {
     min-width: 250px;
   }
 
   #serviceWrapper {
     gap: 3em;
-    
+
   }
 
-  
+
   #serviceSection .container {
     padding: 0 3em;
   }
@@ -229,7 +228,7 @@
     font-size: 1.6em;
   }
 
-  #projectSection .container{
+  #projectSection .container {
     gap: 3em;
   }
 
@@ -337,15 +336,16 @@
     overflow: hidden;
     /* margin: 100px 0; */
   }
+
   .imageCard {
     min-width: 150px !important;
-    min-height:220px !important;
+    min-height: 220px !important;
     max-width: 350px !important;
-    max-height:300px !important;
+    max-height: 300px !important;
 
   }
 
-  
+
 
   .cardContent {
     font-size: 1em;
@@ -371,7 +371,7 @@
     height: 200px;
   }
 
-  
+
 }
 
 
@@ -387,23 +387,24 @@
 
 
 @media screen and (max-width: 630px) {
-  
+
   #navbar {
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 0;
   }
 
   #landingSection {
     margin-top: 50px;
   }
+
   .imageCard {
     min-width: 300px !important;
-    min-height:220px !important;
-    max-width:150px !important;
-    max-height:350px !important;
+    min-height: 220px !important;
+    max-width: 150px !important;
+    max-height: 350px !important;
     /* /* transform: scale(1.07) */
-  } 
+  }
 
   #getInTouchBtn {
     font-size: .9em;
@@ -442,7 +443,7 @@
 
   }
 
- 
+
 
   #connectionsWrapper,
   #textContainer {
@@ -461,10 +462,10 @@
 
   #ownerImageWrapper {
     transform: scale(.6);
-    
+
   }
 
-  
+
   #textWrapper {
     font-size: 0.7em;
   }
@@ -485,9 +486,8 @@
   }
 
   #formContainer form {
-      min-width: 300px;
-      max-width: 460px
-    
+    min-width: 300px;
+    max-width: 460px
   }
 
   .skills {
@@ -498,13 +498,15 @@
     max-width: 25px;
     /* max-height: 25px; */
   }
-  #navbar .container>div:first-child  {
-    font-size: 1.3em;
+
+  #navbar .container>div:first-child {
+    font-size: 1.2em;
   }
+
   #landingSection {
     height: 650px;
   }
- 
+
   #clientAndExperienceContainer {
     font-size: .7em;
   }
@@ -568,8 +570,8 @@
 
   #formContainer form {
     min-width: 250px;
-  
-}
+
+  }
 
   #textWrapper {
     font-size: .55em;
